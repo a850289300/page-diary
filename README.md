@@ -1,7 +1,5 @@
 # page-diary
 日记笔记
-# page-diary
-日记笔记
 
 1. vuex mapActions 工具方法
 
@@ -70,3 +68,6 @@ function getModuleByNamespace (store, helper, namespace) {
   return module
 }
 ```
+简单的阅读: vuex的辅助函数. normalizeNamespace对传参进行了处理(平时在写前置函数时,是否可以采用此种写法)
+
+normalizeMap: 数据格式化（将数据处理为目标格式,在日常工作时,是否需要这种工具函数）
