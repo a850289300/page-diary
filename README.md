@@ -71,3 +71,13 @@ function getModuleByNamespace (store, helper, namespace) {
 简单的阅读: vuex的辅助函数. normalizeNamespace对传参进行了处理(平时在写前置函数时,是否可以采用此种写法)
 
 normalizeMap: 数据格式化（将数据处理为目标格式,在日常工作时,是否需要这种工具函数）
+
+
+2. git merge 命令的范围
+
+```
+git-merge命令是用于从指定的commit(s)合并到当前分支的操作。
+
+注：这里的指定commit(s)是指从这些历史commit节点开始，一直到当前分开的时候。
+```
+
